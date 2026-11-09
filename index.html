@@ -1,49 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SADEEN PS4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SADEEN | PS4</title>
 <style>
-body {
-  background: #080d1c;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-  padding: 25px;
+*{box-sizing:border-box}
+body{
+margin:0;background:#080b14;color:white;
+font-family:Arial,sans-serif;text-align:center;
 }
-.box {
-  max-width: 450px;
-  margin: 50px auto;
-  padding: 30px;
-  background: #151f38;
-  border: 2px solid #168cff;
-  border-radius: 20px;
+header{padding:35px 15px;background:#101a2c}
+.logo{font-size:48px;font-weight:900;color:#21a5ff;
+letter-spacing:4px;text-shadow:0 0 20px #168cff}
+header p{color:#c5d8ef}
+.container{max-width:550px;margin:25px auto;padding:15px}
+.shop{
+width:100%;border-radius:18px;
+border:2px solid #168cff;
+box-shadow:0 0 22px #087cff55;
 }
-h1 { color: #168cff; font-size: 42px; }
-h2 { color: #ffd43b; }
-a {
-  display: block;
-  background: #087cff;
-  color: white;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
+h2{color:#36aaff;margin-top:25px}
+.card{
+background:#131d30;border:1px solid #263c5c;
+border-radius:16px;padding:22px;margin:18px 0;
 }
+.btn{
+display:block;background:#087cff;color:white;
+text-decoration:none;padding:16px;
+border-radius:12px;margin-top:15px;font-weight:bold;
+}
+.btn:hover{background:#005ac0}
+small{color:#9caec5}
+footer{padding:25px;color:#8795aa}
 </style>
 </head>
 <body>
-<div class="box">
-<h1>SADEEN</h1>
-<h2>صفحة تعديل PS4</h2>
-<p>إصدار النظام 14.00</p>
-<p>أهلاً وسهلاً بكم في محلات سدين</p>
-<a href="https://github.com/GoldHEN/GoldHEN">
-مشروع GoldHEN الرسمي
-</a>
-<p>محلات SADEEN - مادبا</p>
+<header>
+<div class="logo">SADEEN</div>
+<p>عالم البلايستيشن بين إيديك 🎮</p>
+</header>
+<div class="container">
+<img class="shop" src="sadeen.jpg" alt="محل SADEEN">
+<div class="card">
+<h2>مرحباً بكم في محلات سدين</h2>
+<p>خدمات تعديل وصيانة أجهزة PlayStation</p>
+<p>دعم جهاز PS4 إصدار النظام 14.00</p>
 </div>
+<div class="card">
+<h2>GoldHEN</h2>
+<p>المصدر الرسمي لمشروع GoldHEN</p>
+<a class="btn" href="https://github.com/GoldHEN/GoldHEN" target="_blank">
+زيارة مشروع GoldHEN الرسمي
+</a>
+<small>تأكد من توافق إصدار جهازك قبل استخدام أي ملفات.</small>
+</div>
+<div class="card">
+<h2>SADEEN STORE</h2>
+<p>بيع وشراء وتبديل الألعاب</p>
+<p>صيانة أجهزة البلايستيشن</p>
+<p>مادبا - مقابل فندق H</p>
+</div>
+</div>
+<footer>© SADEEN 2026</footer>
 </body>
 </html>
