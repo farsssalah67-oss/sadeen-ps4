@@ -329,3 +329,31 @@ body {
 img {
   display: none !important;
 }
+
+/* مربع معلومات SADEEN - الزاوية اليمين */
+.sadeen-info {
+  position: fixed !important;
+  top: 28px !important;
+  right: 28px !important;
+  z-index: 9999 !important;
+  background: rgba(0,0,0,0.85) !important;
+  border: 2px solid #ffcc00 !important;
+  border-radius: 14px !important;
+  padding: 18px 22px !important;
+  text-align: right !important;
+  max-width: 480px !important;
+  direction: rtl !important;
+}
+
+.sadeen-info h2 {
+  color: #ffcc00 !important;
+  font-size: 28px !important;
+  margin: 0 0 8px !important;
+}
+
+.sadeen-info p {
+  color: white !important;
+  font-size: 20px !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
