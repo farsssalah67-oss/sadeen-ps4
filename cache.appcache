@@ -1,9 +1,12 @@
 CACHE MANIFEST
-# SADEEN OFFLINE V1
+# SADEEN OFFLINE V2
 
 CACHE:
-index.html
-FB_IMG_1794230006751.jpg
+./
+./index.html
+./exploit.html
+./launch.js
+./FB_IMG_1794230006751.jpg
 
 NETWORK:
 *
