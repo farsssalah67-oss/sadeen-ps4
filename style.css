@@ -307,3 +307,22 @@ body.log #out {
 code {
   color: #9fb3d0;
 }
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh !important;
+  background: #000 url('FB_IMG_1794230006751.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
+  transform: none !important;
+}
+
+.container, .main, #main, .content {
+  width: 95% !important;
+  max-width: 900px !important;
+  margin: auto !important;
+  text-align: center !important;
+  float: none !important;
+}
