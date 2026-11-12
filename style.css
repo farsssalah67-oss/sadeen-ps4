@@ -326,3 +326,6 @@ body {
   text-align: center !important;
   float: none !important;
 }
+img {
+  display: none !important;
+}
